@@ -18,7 +18,7 @@ const App = () => {
 
     if (search !== "") {
       const response = await fetch(
-        `http://www.omdbapi.com/?t=${search}&apikey=7f9a3b82`,
+        `https://www.omdbapi.com/?t=${search}&apikey=7f9a3b82`,
         {
           method: "GET",
         }
