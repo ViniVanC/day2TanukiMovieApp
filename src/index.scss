@@ -64,6 +64,31 @@ li {
   }
 }
 
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 60px;
+  color: $chestnut_rose;
+
+  .ico-tanukiLogo {
+    animation: load-anim 0.9s ease-in-out infinite;
+  }
+}
+
+@keyframes load-anim {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
 .container {
   max-width: 830px;
   margin: 0 auto;
