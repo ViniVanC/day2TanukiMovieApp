@@ -108,6 +108,8 @@ li {
 
   @media (max-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   input,
